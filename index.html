@@ -1,0 +1,284 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    @import url('https://fonts.cdnfonts.com/css/sf-pro-display?styles=98774,98777,98776,98772,98773,98775,98770,98771,98769');
+#product-details{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    margin: 36px 0;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+/* Product visual image */
+#product-details .visual{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    height: 88vh;
+    background-color: #F5F5F5;
+}
+#product-details .visual img{
+    max-width: 440px;
+    max-height: 440px;
+}
+
+/* Product details section */
+#product-details .details{
+    width: 38%;
+    height: auto;
+    padding: 4px;
+    margin-left: 28px;
+}
+#product-details .details h1{
+max-width: 100%;
+font-size: 32px;
+margin: 0;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+/* Rating and note */
+#product-details .rate{
+display: flex;
+height: 28px;
+align-items: center;
+justify-content: start;
+padding: 0;
+margin: 4px 0;
+}
+#product-details .note{
+font-size: 8.45pt;
+font-style: italic;
+font-weight: 200;
+margin-left: 8px;
+color: #000;
+opacity: 0.5;
+}
+#product-details .stars{
+    width: 12px;
+    height: 12px;
+    color: #000;
+}
+/* Product options */
+#product-details .opc{
+    margin: 24px 0;
+}
+#product-details .op{
+    max-width: 352px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 12px;
+    max-height: 42px;
+    background-color: #fff;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 10px 0;
+    border: 1.8px solid #aaa;
+    transition: 0.2s all ease-in-out;
+}
+#product-details .opa{
+    border: 2px solid #0048D5;
+}
+#product-details .op span .title{
+color: #000;
+font-weight: 600;
+margin: 0;
+}
+#product-details .op span .price{
+color: #000;
+font-weight: 500;
+}
+
+#product-details .op span .bonus{
+    opacity: 0.5;
+    margin: 2.5px 0;
+    font-weight: 500;
+}
+
+/* Delivery part */
+#product-details .delivery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 334px;
+    min-height: 60px;
+    border: 1.8px solid #aaa;
+    border-radius: 12px;
+    padding: 12px 20px;
+    margin: 28px 0;
+}
+#product-details .delivery span{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    margin: 5px 0;
+}
+#product-details .delivery .icon{
+    width: 26px;
+    height: 26px;
+    margin-right: 16px;
+    fill: #141B34;
+    stroke-width: 1.8;
+}
+
+#product-details .delivery .text{
+    font-size: 15px;
+    font-weight: 500;
+    color: #1D1D1F;
+    opacity: 0.8;
+}
+
+/* Description */
+#product-details .des h6{
+    font-size: 11pt;
+}
+#product-details .des p{
+    font-size: 12px;
+    color: #1D1D1F;
+    font-weight: 300;
+    text-align: justify;
+    margin: 8px 0;
+    max-width: 95%;
+    opacity: 0.6;
+}
+
+/* Bouton */
+#product-details .bbt{
+    padding: 12px 40px;
+    border-radius: 24px;
+    background-color: #0048D5;
+    color: #fff;
+    margin-top: 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'SF Pro Display', sans-serif;
+}
+</style>
+<section id="product-details">
+    <div class="visual">
+    <img src="./assets/visuel.png" alt="">
+    </div>
+
+    <div class="details">
+        <!-- Title -->
+        <h1>Protection Elite Trainer Box ETB</h1>
+        <!-- Rating -->
+        <div class="rate">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="stars">
+                              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                            </svg>     
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="stars">
+                              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                            </svg> 
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="stars">
+                              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                            </svg> 
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="stars">
+                              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                            </svg> 
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="stars">
+                              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                            </svg>   
+                            
+                            <h6 class="note">4,7/5 note basé sur 21 avis</h6>
+        </div>
+
+        <!-- Options -->
+        <div class="opc">
+                            <div class="op">
+                                <img src="./assets/optimg.png" alt="">
+                                <span>
+                                    <h4 class="title">1 Protection Elite Trainer Box ETB</h4>
+                                </span>
+                                <span>
+                                    <h6 class="price">32,90€</h6>
+                                </span>
+                            </div>
+
+                            <div class="op">
+                                <img src="./assets/optimg.png" alt="">
+                                <span>
+                                    <h4 class="title">3 Protection Elite Trainer Box ETB</h4>
+                                    <h5 class="bonus">Économiser 4,94 €</h5>
+                                </span>
+                                <span>
+                                    <h6 class="price">98,76€</h6>
+                                </span>
+                            </div>
+
+                            <div class="op">
+                                <img src="./assets/optimg.png" alt="">
+                                <span>
+                                    <h4 class="title">5 Protection Elite Trainer Box ETB</h4>
+                                    <h5 class="bonus">Économiser 16,42€</h5>
+                                </span>
+                                <span>
+                                    <h6 class="price">147,78€</h6>
+                                </span>
+                            </div>
+
+                            <div class="op">
+                                <img src="./assets/optimg.png" alt="">
+                                <span>
+                                    <h4 class="title">10 Protection Elite Trainer Box ETB</h4>
+                                    <h5 class="bonus">Économiser 49,35€</h5>
+                                </span>
+                                <span>
+                                    <h6 class="price">279,65€</h6>
+                                </span>
+                            </div>
+        </div>
+
+        <!-- Delivery -->
+        <div class="delivery">
+                    <span>
+                        <img class="icon" src="./assets/truck-delivery.svg" alt="">
+                        <div class="text">Livraison gratuite dès 179€ d’achat</div>
+                    </span>
+
+                    <span>
+                        <img class="icon" src="./assets/alarm-clock.svg" alt="">
+                        <div class="text">Expédition 48 heures depuis la France</div>
+                    </span>
+
+                    <span>
+                        <img class="icon" src="./assets/reload.svg" alt="">
+                        <div class="text">Retour gratuit sous 30 jours DÉTAILS</div>
+                    </span>
+        </div>
+
+        <!-- Description -->
+        <div class="des">
+                            <h4>Description du produit</h4>
+                            <p>protection acrylique est conçue pour protéger votre ETB Coffret Ultra Premium Pokémon mew tout en offrant une vue claire sur son contenu. La boîte est fabriquée en acrylique de haute qualité et résistant, offrant une excellente visibilité en laissant passer la lumière tout en protégeant le contenu.</p>
+                            <p>Le couvercle magnétique maintient fermement le contenu en place tout en permettant un accès facile. La boîte est livrée en un seul bloc, prête à l'emploi sans nécessiter de montage. Elle est idéale pour les collectionneurs et les joueurs qui souhaitent protéger leur coffret de manière élégante et professionnelle. UPC Coffret Ultra Premium Pokémon mew non incluse</p>
+        </div>
+        
+        <!-- Bouton acheter -->
+                        <a href="#"><button class="bbt">Ajouter au panier</button></a>
+    </div>
+
+            <!-- Toggle script -->
+            <script>
+                var options = document.getElementsByClassName("op");
+                for (var i = 0; i < options.length; i++) {
+                    options[i].addEventListener("click", function() {
+                        // Remove the "opa" class from all elements with the class "op"
+                        for (var j = 0; j < options.length; j++) {
+                            options[j].classList.remove("opa");
+                        }
+                        // Add the "opa" class to the clicked element
+                        this.classList.add("opa");
+                    });
+                }
+                </script>
+</section>
