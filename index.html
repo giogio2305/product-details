@@ -17,7 +17,7 @@
     align-items: center;
     justify-content: center;
     width: 55%;
-    height: 88vh;
+    height: 608px;
     background-color: #F5F5F5;
 }
 #product-details .visual img{
@@ -34,7 +34,7 @@
 }
 #product-details .details h1{
 max-width: 100%;
-font-size: 32px;
+font-size: 28px;
 margin: 0;
 white-space: nowrap;
 overflow: hidden;
@@ -162,6 +162,68 @@ font-weight: 500;
     font-weight: 300;
     font-family: 'SF Pro Display', sans-serif;
 }
+
+/* Responsive MQ */
+@media screen and (max-width: 908px) {
+    #product-details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+/* Product visual image */
+#product-details .visual{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 96vw;
+    height: 52vh;
+    background-color: #F5F5F5;
+}
+#product-details .visual img{
+    max-width: 68vw;
+    max-height: 68vh;
+}
+
+/* Product details section */
+#product-details .details{
+    width: 98%;
+    height: auto;
+    margin: 12px 0;
+}
+#product-details .details h1{
+font-size: 25px;
+}
+
+/* Product options */
+#product-details .op{
+    max-width: 340px;
+    padding: 6px 12px;
+    max-height: 42px;
+}
+#product-details .op span .title{
+font-size: 15px;
+}
+#product-details .op span .price{
+color: #000;
+font-weight: 500;
+}
+
+#product-details .op span .bonus{
+    opacity: 0.5;
+    margin: 2.5px 0;
+    font-weight: 500;
+}
+
+/* Delivery part */
+#product-details .delivery{
+    width: 340px;
+    padding: 8px 6px;
+}
+}
 </style>
 <section id="product-details">
     <div class="visual">
@@ -170,7 +232,7 @@ font-weight: 500;
 
     <div class="details">
         <!-- Title -->
-        <h1>Protection Elite Trainer Box ETB</h1>
+        <h1>Protection Display</h1>
         <!-- Rating -->
         <div class="rate">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="stars">
